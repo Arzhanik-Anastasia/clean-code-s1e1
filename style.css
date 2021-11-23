@@ -37,11 +37,13 @@ body {
 .new-task-wrapper {
   display: flex;
 }
-#completed-tasks, #incompleted-tasks {
+#completed-tasks, 
+#incompleted-tasks {
   margin: 0;
   padding: 0px;
 }
-.list, .title {
+.list, 
+.title {
   list-style: none;
 }
 .input-text, 

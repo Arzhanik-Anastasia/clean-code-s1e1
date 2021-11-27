@@ -18,41 +18,41 @@
           <input id="new-task"
                  class="input-text task" 
                  type="text">
-          <button class="button">Add</button>
+          <button class="todo__button button">Add</button>
         </div>
       </p>
       <h3 class="title">Todo</h3>
       <ul id="incompleted-tasks">
-        <li class="list">
+        <li class="list__item">
           <input type="checkbox" class="input-checkbox">
           <label class="task task-label">Pay Bills</label>
           <input type="text" class="input-text task">
-          <button class="button edit">Edit</button>
-          <button class="button delete">
+          <button class="button todo__button-edit">Edit</button>
+          <button class="button todo__button-del">
             <img class="delete-img" src="./remove.svg" alt="icon remove">
           </button>
         </li>
-        <li class="edit-mode list">
+        <li class="edit-mode list__item">
           <input type="checkbox" class="input-checkbox">
           <label class="task task-label">Go Shopping</label>
           <input type="text" 
                  value="Go Shopping" 
                  class="input-text task">
-          <button class="button edit">Save</button>
-          <button class="button delete">
+          <button class="button todo__button-edit">Save</button>
+          <button class="button todo__button-del">
             <img class="delete-img" src="./remove.svg" alt="icon remove">
           </button>
         </li>
       </ul>
       <h3 class="title">Completed</h3>
       <ul id="completed-tasks">
-        <li class="list">
+        <li class="list__item">
           <input type="checkbox" class="input-checkbox" checked>
           <label class="task task-label">See the Doctor</label>
           <input type="text" 
                  class="input-text task">
-          <button class="button edit">Edit</button>
-          <button class="button delete">
+          <button class="button todo__button-edit">Edit</button>
+          <button class="button todo__button-del">
             <img class="delete-img" src="./remove.svg" alt="icon remove">
           </button>
         </li>
